@@ -1,4 +1,11 @@
-# NWL 05
+# NWL 05 edicao.
+
+## necessário para conclusao desse projeto:
+
+1. NODEJS
+1. yarn
+1. VSCODE
+1. conhecimento em JavaScript
 
 ## NODE
 
