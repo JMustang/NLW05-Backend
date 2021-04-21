@@ -1,7 +1,9 @@
 import express from "express";
 
-const app = express();
+import "./database";
+import { routes } from "./routes";
 
+const app = express();
 /**
  *  metodos em um CRUD
  *
@@ -11,15 +13,7 @@ const app = express();
  * DELETE = Deletar
  * PATCH = Alterar uma informacao especifica
  */
-
-app.get("/", (req, res) => {
-  return res.json({
-    message: "Hola",
-  });
-});
-
-app.post("/users", (req, res) => {
-  return res.json({ message: "Usuario salvo com sucesso!" });
-});
+app.use(express.json());
+app.use(routes);
 
 app.listen(3333, () => console.log("Server running on port 3333"));
