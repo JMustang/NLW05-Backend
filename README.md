@@ -19,6 +19,8 @@
 - yarn add reflect-metadata. => instala o reflect-metadata, esse pacote e usado para construir consultas sql.
 - yarn add uuid
 - yarn add @types/uuid -D
+- yarn add socket.io => instala o socket.io.
+- yarn add @types/socket.io -D => instala as tipagens do socketio.
 
 ## TYPESCRIPT
 
@@ -61,4 +63,10 @@ Por exemplo: você desenvolve uma aplicação que só pode ser acessada por usu�
 Embora relacionadas, elas não tem nada a ver. Seeder faz uma coisa, migration faz outra.
 
 Dependendo da ferramenta/framework que estiver usando, uma migration específica pode conter um seeder específico, mas tenha em mente que a migration atualiza a estrutura da base de dados, enquanto o seeder serve para popular a base.
+```
+
+## Socket io
+
+```
+Socket.IO é uma biblioteca JavaScript para aplicativos da web em tempo real. Ele permite a comunicação bidirecional em tempo real entre clientes e servidores da Web. Ele tem duas partes: uma biblioteca do lado do cliente que é executada no navegador e uma biblioteca do lado do servidor para Node.js. Ambos os componentes têm uma API quase idêntica.
 ```
