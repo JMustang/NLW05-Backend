@@ -67,6 +67,8 @@ Dependendo da ferramenta/framework que estiver usando, uma migration específica
 
 ## Socket io
 
+[Documentacao.](https://socket.io/docs/v4/index.html)
+
 ```
 Socket.IO é uma biblioteca JavaScript para aplicativos da web em tempo real. Ele permite a comunicação bidirecional em tempo real entre clientes e servidores da Web. Ele tem duas partes: uma biblioteca do lado do cliente que é executada no navegador e uma biblioteca do lado do servidor para Node.js. Ambos os componentes têm uma API quase idêntica.
 ```
